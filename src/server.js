@@ -13,7 +13,7 @@ const publicDirectory = path.join(__dirname, "../public");
 
 const server = express();
 
-const { PORT } = process.env;
+const PORT = 3001;
 
 server.use(cors());
 
